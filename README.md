@@ -1,23 +1,23 @@
-#Ping Watcher
+# Ping Watcher
 
 Boas vindas ao Ping Watcher
 
-Esta ferramenta visa auxiliar computadores que tem uma placa de rede obsoleta/danificada ou possÌveis conflitos na rede onde o computador desconecta da rede conectada com frequÍncia.
+Esta ferramenta visa auxiliar computadores que tem uma placa de rede obsoleta/danificada ou poss√≠veis conflitos na rede onde o computador desconecta da rede conectada com frequ√™ncia.
 
-Para utilizar, basta adicionar o arquivo .exe em qualquer lugar da sua preferÍncia e execut·-lo via linha de comando, por exemplo:
+Para utilizar, basta adicionar o arquivo .exe em qualquer lugar da sua prefer√™ncia e execut√°-lo via linha de comando, por exemplo:
 
 `C:>ping_watcher <maxtime>`
 
-onde *maxtime* È o tempo limite no qual ser· efetuado a observaÁ„o, caso o programa detecte duas ocorrÍncias que ultrapassam esse limite, automaticamente reconecta o computador novamente
+onde *maxtime* √© o tempo limite no qual ser√° efetuado a observa√ß√£o, caso o programa detecte duas ocorr√™ncias que ultrapassam esse limite, automaticamente reconecta o computador novamente
 
-o programa utiliza de comandos simples como *ping 8.8.8.8*, *ipconfig /release* e *ipconfig /renew*, porÈm para evitar de manualmente ter de realizar essas aÁıes, pode deixar o programa executando que ser· feito automaticamente
+o programa utiliza de comandos simples como *ping 8.8.8.8*, *ipconfig /release* e *ipconfig /renew*, por√©m para evitar de manualmente ter de realizar essas a√ß√µes, pode deixar o programa executando que ser√° feito automaticamente
 
-PrÛs: evita o serviÁo manual de reconectar novamente na rede Wi-Fi
+Pr√≥s: evita o servi√ßo manual de reconectar novamente na rede Wi-Fi
 Contra:
- - È uma vers„o alpha, e acaba por gerar um arquivo utilizado para verificar as ocorrÍncias
- - Na primeira execuÁ„o, pode indicar falha, mas em futuras versıes isso pode ser corrigido
- - Para executar por clique, È necess·rio criar um atalho e passar o par‚metro <maxtime> ao final do caminho do .exe, dessa forma:
+ - √© uma vers√£o alpha, e acaba por gerar um arquivo utilizado para verificar as ocorr√™ncias
+ - Na primeira execu√ß√£o, pode indicar falha, mas em futuras vers√µes isso pode ser corrigido
+ - Para executar por clique, √© necess√°rio criar um atalho e passar o par√¢metro <maxtime> ao final do caminho do .exe, dessa forma:
 
 `"C:/ping_watcher.exe" <maxtime>`
 
-AgradeÁo a visita. Se tiver sugestıes de melhorias, pode abrir uma issue que irei verificar :)
+Agrade√ßo a visita. Se tiver sugest√µes de melhorias, pode abrir uma issue que irei verificar :)
